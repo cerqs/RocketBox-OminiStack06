@@ -1,0 +1,7 @@
+yarn add create-react frontend
+yarn add axios
+yarn add react-router-dom
+yarn add react-icons
+yarn add date-fns
+yarn add react-dropzone
+yarn add socket.io client
