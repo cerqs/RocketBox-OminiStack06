@@ -1,0 +1,14 @@
+yarn add express
+yarn add nodemon
+    "scripts":{
+    "dev":"nodemon src/server.js",
+    "start":"node src/server.js"
+  },
+
+yarn add mongoose  
+
+yarn add multer
+
+yarn add socket.io
+
+yarn add cors
