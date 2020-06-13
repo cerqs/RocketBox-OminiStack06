@@ -18,7 +18,7 @@ io.on("connection", socket => {
 });
 
 //Conexão mongodb
-mongoose.connect('mongodb+srv://Rocketbox:1234@cluster0-05y4v.mongodb.net/test?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://Rocketbox:1234@cluster0-pomgw.mongodb.net/<dbname>?retryWrites=true&w=majority',
     {
         useNewUrlParser:true,
         useUnifiedTopology:true
@@ -40,6 +40,6 @@ app.use('/files', express.static(path.resolve(__dirname,'..','tmp')));
 
 app.use(require('./routes'));
 
-server.listen( process.env.PORT || 3000 );
+server.listen(3000);
 
 
